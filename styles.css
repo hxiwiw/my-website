@@ -1,0 +1,127 @@
+header {
+    background-color: #ff6a00; /* Green background */
+    color: white; /* White text */
+    padding: 10px 0; /* Padding for top and bottom */
+    text-align: center; /* Centered text */
+    font-size: 24px; /* Larger font size */
+    border-radius: 0px 0px 8px 8px; /* Rounded corners for the body */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px; /* отступ под футер */
+    
+}
+
+html, body {
+    scrollbar-width: none; /* Firefox */
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+footer {
+    background-color: #00A08A; /* Footer background color */
+    color: white; /* Footer text color */
+    text-align: center; /* Centered text */
+    padding: -5px 0; /* Padding for top and bottom */
+    position: fixed; /* Fixed position at the bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /* Align to the bottom */
+    border-radius: 8px 8px 0px 0px; /* Rounded corners for the body */
+
+}
+
+.container {
+    display: block;
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding inside the container */
+    /* width: 100%; */
+    
+
+}
+
+.input_first {
+    display: flex;
+    flex-direction: column;
+    padding: 10px; /* Padding inside the input */
+    margin: 10px; /* Margin for spacing */
+    border: 1px solid #ccc; /* Border around the input */
+    border-radius: 4px; /* Rounded corners for the input */
+}
+.input_second {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px; /* Padding inside the input */
+    margin: 10px; /* Margin for spacing */
+    border: 1px solid #ccc; /* Border around the input */
+    border-radius: 4px; /* Rounded corners for the input */
+    gap: 10px
+}
+
+.input_third { 
+    padding: 10px; /* Padding inside the input */
+    margin: 10px; /* Margin for spacing */
+    border: 1px solid #ccc; /* Border around the input */
+    border-radius: 4px; /* Rounded corners for the input */
+}
+.input_fourth { 
+    padding: 10px; /* Padding inside the input */
+    margin: 10px; /* Margin for spacing */
+    border: 1px solid #ccc; /* Border around the input */
+    border-radius: 4px; /* Rounded corners for the input */
+}
+.input_fifth {
+    padding: 10px; /* Padding inside the input */
+    margin: 10px; /* Margin for spacing */
+    border: 1px solid #ccc; /* Border around the input */
+    border-radius: 4px; /* Rounded corners for the input */
+}
+.input_group {
+    display: flex; /* Flexbox for input group */
+    flex-direction: row; /* Row layout */
+    justify-content: space-between;
+    width: 100%; /* Full width */
+    margin: 10px 0; /* Margin for spacing */
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+table td, table th {
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:first-child {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+table input {
+    width: 90%;
+    /* padding: 4px; */
+}
+.input_fourth td {
+    min-width: 75px;
+}
+
+
+
+
+
+
