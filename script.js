@@ -360,7 +360,7 @@ function addFourthContent(container) {
 
         </div>
         <button id="clear_table_fourth">Очистить таблицу</button>
-        <button id="gen_table_fourth">Генерацич значений</button>
+        <button id="gen_table_fourth">Генерация значений</button>
         <button id="save_table_fourth">Вычислить данные</button>
     </div>
     `;
@@ -784,6 +784,17 @@ function machineAllocation(Pmachines, container) {
             input.required = true;
             cell.appendChild(input);
             row.appendChild(cell);
+
+            input.addEventListener("keydown", function (e) {
+                if (
+                    e.key === "e" || e.key === "E" ||
+                    e.key === "+" || e.key === "-" ||
+                    e.key === "." ||
+                    (e.key.length === 1 && !e.key.match(/[0-9]/))
+                ) {
+                    e.preventDefault();
+                }
+            });
 
             input.addEventListener("change", function () {
             clearResults();
